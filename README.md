@@ -1,1 +1,4 @@
 # marubatsuClassifier
+
+# License
+MIT
