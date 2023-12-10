@@ -110,7 +110,6 @@ while 1:
             else:
                 img = draw_string(img, 2, 2, class_names[res_index], color=lcd.WHITE,scale=2, bg=lcd.BLUE)
         else:
-            #print("unknown, maybe:", class_names[res_index])
             print("unknown")
             img = draw_string(img, 2, 2, 'unknown', color=lcd.WHITE,scale=2, bg=lcd.BLACK)
     lcd.display(img)
